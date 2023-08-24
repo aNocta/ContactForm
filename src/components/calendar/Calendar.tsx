@@ -1,11 +1,7 @@
 import { FC, useEffect, useState } from "react";
 import CalendarHeader from "./calendar-header/CalendarHeader";
 import CalendarDays from "./calendar-days/CalendarDays";
-import {
-  ICalendarMonth,
-  getStartDayOfWeek,
-  monthes,
-} from "./calendar-header/CalendarMonth";
+import { ICalendarMonth, monthes } from "./calendar-header/CalendarMonth";
 import Slider from "../Slider";
 import { numberToArr } from "../../tools/numberToArr";
 
